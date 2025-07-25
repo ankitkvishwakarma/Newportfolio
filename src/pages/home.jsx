@@ -3,12 +3,11 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Services from '../components/Services';
 import Footer from '../components/Footer';
-import Tech from "../components/TechStack";
-import MyProjects from "../components/MyProjects";
-
+import Tech from '../components/TechStack';
+import MyProjects from '../components/MyProjects';
 
 const Home = () => {
-  const showTech = true; // make dynamic if needed
+  const showTech = true; // set dynamically if needed
   const showProjects = true;
 
   return (
